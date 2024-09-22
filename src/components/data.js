@@ -1,3 +1,4 @@
+
 import {
   FaceSmileIcon,
   ChartBarSquareIcon,
@@ -5,6 +6,9 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  BookOpenIcon,
+  ArrowDownOnSquareIcon,
+  ArrowUpOnSquareIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/guru.jpg";
@@ -23,7 +27,7 @@ const benefitOne = {
     {
       title: "Автор более 50 книг и нескольких сотен статей по философии йоги",
       desc: "Наиболее значительные и известные труды и книги: двухтомник «Сияние драгоценных тайн лайя-йоги», «Песни пробужденного», «Вселенная джняни», «Духовная алхимия: путь внутреннего аскетизма», «Моя жизнь в Боге».",
-      icon: <ChartBarSquareIcon />,
+      icon: <BookOpenIcon />,
     },
     {
       title: "Обучает",
@@ -41,12 +45,12 @@ const benefitTwo = {
     {
       title: "Северная линия передачи",
       desc: "Идет от великого реформатора Адвайта Веданты Шри Ади Шанкарачарьи.",
-      icon: <DevicePhoneMobileIcon />,
+      icon: <ArrowUpOnSquareIcon />,
     },
     {
       title: "Южная линия передачи",
       desc: "Идет от тамильских махасиддхов.",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <ArrowDownOnSquareIcon />,
     },
     {
       title: "Парамгуру",

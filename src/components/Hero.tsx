@@ -40,32 +40,7 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
-      <Container>
-        <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            Более <span className="text-indigo-600">20 000+</span>{" "}
-            садху практикуют в нашей традиции
-          </div>
 
-          <div className="flex flex-wrap lg:justify-center text-xs md:text-base gap-5 mt-10 justify-around">
-            <div className=" text-gray-400 dark:text-gray-400">
-              В России
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              В Европе
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              В США
-            </div>
-            <div className=" text-gray-400 dark:text-gray-400">
-              В Индии
-            </div>
-            <div className=" text-gray-400 dark:text-gray-400">
-              В Непале
-            </div>
-          </div>
-        </div>
-      </Container>
     </>
   );
 }
