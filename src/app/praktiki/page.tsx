@@ -30,104 +30,103 @@ const page = () => {
         </div>
       </div>
 
-      <Container>
+      <div className="px-2">
+        <Container>
 
-        <div className="mt-32 flex flex-col lg:flex-row items-center lg:items-start gap-5">
-          <Image src={yog1} alt="йогиня" className="shrink-0 w-36 h-36 bg-indigo-700 rounded-xl p-2" />
-          <div className="flex flex-col items-start justify-start">
-            <h2 className="w-full text-4xl text-center">Медитация Сиддхов</h2>
-            <p className="mt-10 text-center">Это уникальная практика, основанная на древних учениях. Она помогает освободить ум от напряжения, настроиться на позитивные вибрации и открыть внутренние ресурсы.</p>
+          <div className="mt-32 flex flex-col lg:flex-row items-center lg:items-start gap-5">
+            <Image src={yog1} alt="йогиня" className="shrink-0 w-36 h-36 bg-indigo-700 rounded-xl p-2" />
+            <div className="flex flex-col items-start justify-start">
+              <h2 className="w-full text-4xl text-center">Медитация Сиддхов</h2>
+              <p className="mt-10 text-center">Это уникальная практика, основанная на древних учениях. Она помогает освободить ум от напряжения, настроиться на позитивные вибрации и открыть внутренние ресурсы.</p>
+            </div>
           </div>
-        </div>
 
-        <div className="mt-32 flex flex-col lg:flex-row items-center lg:items-start gap-5">
-          <Image src={yog2} alt="om" className="shrink-0 w-36 h-36 bg-indigo-700 rounded-xl p-2" />
-          <div className="flex flex-col items-start justify-start">
-            <h2 className="w-full text-4xl text-center">Что дает медитация?</h2>
-            <div className="my-5 grid grid-cols-1 md:grid-cols-4 gap-5 xl:gap-10">
-              <div className="flex flex-col gap-3 items-center p-5">
-                <Image src={svg1} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
-                <p className="text-center text-xl">Навык концентрации</p>
-              </div>
-              <div className="flex flex-col gap-3 items-center p-5">
-                <Image src={svg2} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
-                <p className="text-center text-xl">Открытие новых уровней осознанности</p>
-              </div>
-              <div className="flex flex-col gap-3 items-center p-5">
-                <Image src={svg3} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
-                <p className="text-center text-xl">Поддержку единомышленников и возможность обмена опытом</p>
-              </div>
-              <div className="flex flex-col gap-3 items-center p-5">
-                <Image src={svg4} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
-                <p className="text-center text-xl">Снятие стресса и умение находить внутренний покой</p>
+          <div className="mt-32 flex flex-col lg:flex-row items-center lg:items-start gap-5">
+            <Image src={yog2} alt="om" className="shrink-0 w-36 h-36 bg-indigo-700 rounded-xl p-2" />
+            <div className="flex flex-col items-start justify-start">
+              <h2 className="w-full text-4xl text-center">Что дает медитация?</h2>
+              <div className="my-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 xl:gap-10">
+                <div className="flex flex-col gap-3 items-center p-5">
+                  <Image src={svg1} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
+                  <p className="text-center text-xl">Навык концентрации</p>
+                </div>
+                <div className="flex flex-col gap-3 items-center p-5">
+                  <Image src={svg2} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
+                  <p className="text-center text-xl">Открытие новых уровней осознанности</p>
+                </div>
+                <div className="flex flex-col gap-3 items-center p-5">
+                  <Image src={svg3} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
+                  <p className="text-center text-xl">Поддержку единомышленников и возможность обмена опытом</p>
+                </div>
+                <div className="flex flex-col gap-3 items-center p-5">
+                  <Image src={svg4} alt="svg" className="w-10 h-10 bg-indigo-700 rounded-md" />
+                  <p className="text-center text-xl">Снятие стресса и умение находить внутренний покой</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="mt-32 flex flex-col lg:flex-row items-center lg:items-start gap-5">
-          <Image src={yog4} alt="om" className=" shrink-0 w-36 h-36 bg-indigo-700 rounded-xl p-2" />
-          <div className="flex flex-col items-start justify-start">
-            <h2 className="w-full text-4xl text-center">Детали мероприятия</h2>
-            <div className="mt-10 grid grid-cols-1 md:grid-cols-4 gap-5 xl:gap-10 lg:grid-cols-2">
+          <div className="mt-32 flex flex-col lg:flex-row items-center lg:items-start gap-5">
+            <Image src={yog4} alt="om" className=" shrink-0 w-36 h-36 bg-indigo-700 rounded-xl p-2" />
+            <div className="flex flex-col items-start justify-start">
+              <h2 className="w-full text-4xl text-center">Детали мероприятия</h2>
+              <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
-              <div className="flex items-start gap-5">
-                <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-700" />
-                <div className="flex flex-col items-start gap-3">
-                  <p className="text-2xl text-indigo-700 font-semibold">Когда</p>
-                  <p>28 сентября в 16-00 (суббота)</p>
+                <div className="flex items-start gap-5">
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-700 font-semibold">Когда</p>
+                    <p>28 сентября в 16-00 (суббота)</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex items-start gap-5">
-                <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-700" />
-                <div className="flex flex-col items-start gap-3">
-                  <p className="text-2xl text-indigo-700 font-semibold">Формат</p>
-                  <p>
-                    Практика длится 1.5 часа, включающих в себя: подготовительные упражнения и медитационную сессию.
-                    Специальная подготовка не требуется.
-                    Форма одежды - свободная.
-                  </p>
+                <div className="flex items-start gap-5">
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-700 font-semibold">Формат</p>
+                    <p>
+                      Практика длится 1.5 часа, включающих в себя: подготовительные упражнения и медитационную сессию.
+                      Специальная подготовка не требуется.
+                      Форма одежды - свободная.
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex items-start gap-5">
-                <IoLocation className=" shrink-0 w-10 h-10 text-indigo-700" />
-                <div className="flex flex-col items-start gap-3">
-                  <p className="text-2xl text-indigo-700 font-semibold">Где</p>
-                  <p>
-                    Пространство &quot;Studio 108&quot; <br />
-                    м. Тургеневская/Чистые Пруды<br />
-                    Ул. Жуковского дом 7
-                  </p>
+                <div className="flex items-start gap-5">
+                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-700 font-semibold">Где</p>
+                    <p>
+                      Пространство &quot;Studio 108&quot; <br />
+                      м. Тургеневская/Чистые Пруды<br />
+                      Ул. Жуковского дом 7
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="flex items-start gap-5">
-                <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-700" />
-                <div className="flex flex-col items-start gap-3">
-                  <p className="text-2xl text-indigo-700 font-semibold">Стоимость</p>
-                  <p>Объем свободного пожертвования определяете самостоятельно 🙏</p>
+                <div className="flex items-start gap-5">
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <div className="flex flex-col items-start gap-3">
+                    <p className="text-2xl text-indigo-700 font-semibold">Стоимость</p>
+                    <p>Объем свободного пожертвования определяете самостоятельно 🙏</p>
+                  </div>
                 </div>
-              </div>
 
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="flex justify-center mt-32">
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdYRN2fEV48od4k59TfYdu4pDsQbpDs17vrLlhaTMHsTgB4zA/viewform"
-            target="_blank"
-            rel="noopener"
-            className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md" >Записаться на медитацию</a>
-        </div>
-      </Container>
+          <div className="flex justify-center mt-32">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdYRN2fEV48od4k59TfYdu4pDsQbpDs17vrLlhaTMHsTgB4zA/viewform"
+              target="_blank"
+              rel="noopener"
+              className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md" >Записаться на медитацию</a>
+          </div>
+        </Container>
 
-
-
+      </div>
     </div>
-
   )
 }
 
