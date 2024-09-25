@@ -12,14 +12,11 @@ export default function Home() {
     <Container >
 
       <Hero />
-      <SectionTitle
-        preTitle="С нами здорово"
-        title="В чем выгода практиковать именно с нами? "
-      >
-        <>Наш центр организован учениками просветленного мастера Адвайты - Гуру Свами Вишнудевананда Гири Махараджа.</>
-        <>Мы являемся носителями традиции.</>
 
-      </SectionTitle>
+      <div className="w-full text-center">
+        Наш центр организован учениками просветленного мастера Адвайты - Гуру Свами Вишнудевананда Гири Махараджа.
+        Мы являемся носителями традиции.
+      </div>
 
       <Container>
         <div className="w-full flex flex-col justify-center">
@@ -50,7 +47,6 @@ export default function Home() {
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-
 
       <SectionTitle
         preTitle="Отзывы"
