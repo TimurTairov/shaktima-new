@@ -1,3 +1,4 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,5 +7,17 @@
   html,
   body {
     @apply dark:bg-indigo-950 bg-white;
+  }
+}
+
+.bg-practiki {
+  background: url('../../public//img/bg1.jpg') no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 1024px) {
+  .bg-practiki {
+    background: url('../../public//img/bg1.jpg') no-repeat;
+    background-size: contain;
   }
 }

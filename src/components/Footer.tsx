@@ -7,9 +7,8 @@ import { FaTelegram } from "react-icons/fa";
 
 export function Footer() {
   const navigation = ["О центре", "Практики", "Семинары", "Контакты", "Поддержать"];
-  const legal = ["Terms", "Privacy", "Legal"];
   return (
-    <div className="relative">
+    <div className="mt-auto bg-slate-50">
       <Container>
         <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
@@ -34,22 +33,6 @@ export function Footer() {
               Московский Дхарма центр Шакти Ма
             </div>
 
-            {/* <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div> */}
-
           </div>
 
           <div>
@@ -63,20 +46,6 @@ export function Footer() {
                   {item}
                 </Link>
               ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {/* {legal.map((item, index) => (
-                <Link
-                  key={index}
-                  href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
-                >
-                  {item}
-                </Link>
-              ))} */}
             </div>
           </div>
 

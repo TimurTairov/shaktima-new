@@ -34,18 +34,16 @@ export const Navbar = () => {
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
         <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-            <span>
-              <Image
-                src={logo}
-                width="32"
-                alt="N"
-                height="32"
-                className="w-8 rounded-full"
-              />
-            </span>
-            <span className="hidden xl:block">Московский дхарма центр Шакти Ма</span>
-          </span>
+          <div className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+            <Image
+              src={logo}
+              width="32"
+              alt="N"
+              height="32"
+              className="w-8 rounded-full"
+            />
+            <h2 className="text-xl xl:text-4xl">Шакти Ма</h2>
+          </div>
         </Link>
 
         {/* get started  */}

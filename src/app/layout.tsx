@@ -25,14 +25,13 @@ export default function RootLayout({
   return (
     <html lang="ru" suppressHydrationWarning>
       <body className={`${inter.className} bg-animated`}>
-        {/* <div className=" fixed w-full h-full -z-0">
-          <Image src={bg} alt="bg" fill className="absolute top-0 left-0 object-cover " />
-        </div> */}
         <ThemeProvider attribute="class">
           <Navbar />
-          <div>{children}</div>
+          <div className="min-h-screen">
+            {children}
+          </div>
           <Footer />
-          <PopupWidget />
+          {/* <PopupWidget /> */}
         </ThemeProvider>
       </body>
     </html>

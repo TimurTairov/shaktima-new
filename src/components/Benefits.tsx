@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
+import ImageGallery from "react-image-gallery";
 
 interface BenefitsProps {
   imgPos?: "left" | "right";
@@ -8,7 +10,10 @@ interface BenefitsProps {
     imgPos?: "left" | "right";
     title: string;
     desc: string;
-    image: any;
+    images: {
+      original: string,
+      thumbnail: string,
+    }[];
     bullets: {
       title: string;
       desc: string;
@@ -18,22 +23,20 @@ interface BenefitsProps {
 }
 export const Benefits = (props: Readonly<BenefitsProps>) => {
   const { data } = props;
+  const settings = {
+    showBullets: false,
+    showIndex: false,
+    slideDuration: 700,
+    slideInterval: 3000,
+    showFullscreenButton: true,
+    lazyLoad: true,
+    showThumbnails: false,
+  }
+
   return (
     <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
-      <div
-        className={`flex items-center justify-center w-full lg:w-1/2 ${props.imgPos === "right" ? "lg:order-1" : ""
-          }`}>
-        <div>
-          <Image
-            src={data.image}
-            width={521}
-            height={521}
-            alt="Benefits"
-            className={"object-cover rounded-md"}
-            placeholder="blur"
-            blurDataURL={data.image.src}
-          />
-        </div>
+      <div className={`flex items-center justify-center w-full lg:w-1/2 ${props.imgPos === "right" ? "lg:order-1" : ""}`}>
+        <ImageGallery items={data.images} {...settings} />
       </div>
 
       <div
@@ -45,9 +48,9 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
               {data.title}
             </h3>
 
-            <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+            <div className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
               {data.desc}
-            </p>
+            </div>
           </div>
 
           <div className="w-full mt-5">
