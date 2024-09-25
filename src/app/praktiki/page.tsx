@@ -73,17 +73,17 @@ const page = () => {
               <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 xl:gap-10 lg:grid-cols-2">
 
                 <div className="flex items-start gap-5">
-                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <IoCalendarNumberOutline className=" shrink-0 w-10 h-10 text-indigo-700 dark:text-indigo-300" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-700 font-semibold">Когда</p>
+                    <p className="text-2xl text-indigo-700 dark:text-indigo-300 font-semibold">Когда</p>
                     <p>28 сентября в 16-00 (суббота)</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <LuCalendarHeart className=" shrink-0 w-10 h-10 text-indigo-700 dark:text-indigo-300" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-700 font-semibold">Формат</p>
+                    <p className="text-2xl text-indigo-700 dark:text-indigo-300 font-semibold">Формат</p>
                     <p>
                       Практика длится 1.5 часа, включающих в себя: подготовительные упражнения и медитационную сессию.
                       Специальная подготовка не требуется.
@@ -93,9 +93,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <IoLocation className=" shrink-0 w-10 h-10 text-indigo-700 dark:text-indigo-300" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-700 font-semibold">Где</p>
+                    <p className="text-2xl text-indigo-700 dark:text-indigo-300 font-semibold">Где</p>
                     <p>
                       Пространство &quot;Studio 108&quot; <br />
                       м. Тургеневская/Чистые Пруды<br />
@@ -105,9 +105,9 @@ const page = () => {
                 </div>
 
                 <div className="flex items-start gap-5">
-                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-700" />
+                  <BiDonateHeart className=" shrink-0 w-10 h-10 text-indigo-700 dark:text-indigo-300" />
                   <div className="flex flex-col items-start gap-3">
-                    <p className="text-2xl text-indigo-700 font-semibold">Стоимость</p>
+                    <p className="text-2xl text-indigo-700 dark:text-indigo-300 font-semibold">Стоимость</p>
                     <p>Объем свободного пожертвования определяете самостоятельно 🙏</p>
                   </div>
                 </div>
