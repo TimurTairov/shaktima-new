@@ -51,6 +51,10 @@ const benefitTwo = {
   desc: `В нашей традиции две основные линии передачи.`,
   images: [
     {
+      original: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
+      thumbnail: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
+    },
+    {
       original: 'https://sun9-52.userapi.com/impg/v90rgPWro6jVMXQQqMvRRpaCAxYRJtYYEHrzoQ/aoTXbjYMEzE.jpg?size=600x800&quality=95&sign=3e6ca793161fadf02355cbc5003d3721&type=album',
       thumbnail: 'https://sun9-52.userapi.com/impg/v90rgPWro6jVMXQQqMvRRpaCAxYRJtYYEHrzoQ/aoTXbjYMEzE.jpg?size=600x800&quality=95&sign=3e6ca793161fadf02355cbc5003d3721&type=album',
     },
@@ -71,8 +75,12 @@ const benefitTwo = {
       thumbnail: 'https://sun9-54.userapi.com/impg/6pXs8LLKEjsJTejym8WGqOnWeyJnOgxuomdlCQ/xWhQfJVSgA8.jpg?size=600x800&quality=95&sign=ab831322e2ddf910ced06e732f4ce6c6&type=album',
     },
     {
-      original: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
-      thumbnail: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
+      original: 'https://sun9-12.userapi.com/impg/kEF4-fnuTduKXjdAhjZ3CZ3BShPZEAbnz4ED5Q/xlaXsndUW1c.jpg?size=744x1052&quality=95&sign=23b5e21cb714dc90baa03120e7377f3a&type=album',
+      thumbnail: 'https://sun9-12.userapi.com/impg/kEF4-fnuTduKXjdAhjZ3CZ3BShPZEAbnz4ED5Q/xlaXsndUW1c.jpg?size=744x1052&quality=95&sign=23b5e21cb714dc90baa03120e7377f3a&type=album',
+    },
+    {
+      original: 'https://sun9-71.userapi.com/impg/Poij7sT5r5eQQUk6hnm9ET1An-_9vQQQkTyBgA/IEF0WJnzxK0.jpg?size=1527x2160&quality=95&sign=fe3c424b99d28f53f508c4a30f195f8d&type=album',
+      thumbnail: 'https://sun9-71.userapi.com/impg/Poij7sT5r5eQQUk6hnm9ET1An-_9vQQQkTyBgA/IEF0WJnzxK0.jpg?size=1527x2160&quality=95&sign=fe3c424b99d28f53f508c4a30f195f8d&type=album',
     },
   ],
   bullets: [

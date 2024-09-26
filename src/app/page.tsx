@@ -5,6 +5,7 @@ import { Benefits } from "@/components/Benefits";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { benefitOne, benefitTwo } from "@/components/data";
+import Galarymainpage from '@/components/Galarymainpage'
 
 
 export default function Home() {
@@ -49,29 +50,22 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Отзывы"
-        title="Что о нас говорят наши практикующие"
+        preTitle="Watch a video"
+        title="Посмотрите видео нашего духовного Учителя Свами Вишнудевананда Гири"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Как отличить игры ума от просветления?
       </SectionTitle>
 
-      <Testimonials />
-
-      {/* <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle> */}
-
+      <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[30rem] lg:px-20 xl:px-80 rounded-md mb-10"></iframe>
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Как отличить игры ума от просветления? (для примера)"
+        preTitle="galary"
+        title="Посмотрите фотографии нашего дхарма центра"
       >
-        Посмотрите видео Свами Вишнудевананда Гири.
+        Здесь представлены фотографии с наших мероприятий.
       </SectionTitle>
 
-      <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[30rem] lg:px-20 xl:px-80 rounded-md"></iframe>
+      <Galarymainpage />
 
     </Container >
   );
