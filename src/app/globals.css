@@ -21,3 +21,7 @@
     background-size: contain;
   }
 }
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 100%;
+}
