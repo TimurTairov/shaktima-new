@@ -8,7 +8,7 @@ import GalaryMDC from '@/components/GalaryMDC'
 
 export default function Home() {
   return (
-    <Container>
+    <Container className="jura-font">
 
       <Hero />
 
