@@ -2,10 +2,8 @@ import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
-import { Testimonials } from "@/components/Testimonials";
-import { Faq } from "@/components/Faq";
 import { benefitOne, benefitTwo } from "@/components/data";
-import Galarymainpage from '@/components/Galarymainpage'
+import GalaryMDC from '@/components/GalaryMDC'
 
 
 export default function Home() {
@@ -65,7 +63,7 @@ export default function Home() {
         Здесь представлены фотографии с наших мероприятий.
       </SectionTitle>
 
-      <Galarymainpage />
+      <GalaryMDC />
 
     </Container >
   );
