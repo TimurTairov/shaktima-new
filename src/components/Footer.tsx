@@ -1,9 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from '../../public/ShaktiMa-logo.jpg'
+import { FaGlobe } from "react-icons/fa6";
 import { Container } from "@/components/Container";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { PiHandsPrayingBold } from "react-icons/pi";
 
 export function Footer() {
   const navigation = ["О центре", "Практики", "Семинары", "Контакты", "Поддержать"];
@@ -33,9 +36,13 @@ export function Footer() {
               Московский Дхарма центр Шакти Ма
             </div>
 
+            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400 flex items-center gap-1">
+              На благо всех живых существ <PiHandsPrayingBold />
+            </div>
           </div>
 
           <div>
+
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
                 <Link
@@ -50,16 +57,16 @@ export function Footer() {
           </div>
 
           <div className="">
-            <div>Follow us</div>
-            <div className="flex flex-col mt-5 text-gray-400 dark:text-gray-500">
+            <div className="font-semibold">Ресурсы</div>
+            <div className="flex flex-col mt-5 gap-3 text-gray-400 dark:text-gray-500">
               <a
                 href="https://t.me/mdc_ShaktiMa"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center gap-2"
               >
-                <FaTelegram />
-                <span className="">Канал Шакти Ма</span>
+                <FaTelegram className="shrink-0" />
+                <span className="">Канал в телеграм</span>
               </a>
               <a
                 href="https://t.me/shaktimamdc"
@@ -67,8 +74,8 @@ export function Footer() {
                 rel="noopener"
                 className="flex items-center gap-2"
               >
-                <FaTelegram />
-                <span className="">Чат Шакти Ма</span>
+                <FaTelegram className="shrink-0" />
+                <span className="">Чат в телеграм</span>
               </a>
               <a
                 href="https://www.youtube.com/@ShaktiMA_MDC"
@@ -76,11 +83,19 @@ export function Footer() {
                 rel="noopener"
                 className="flex items-center gap-2"
               >
-                <FaYoutube />
-                <span className="">YouTube Шакти Ма</span>
+                <FaYoutube className="shrink-0" />
+                <span className="">YouTube</span>
               </a>
 
+              <a href="https://www.advayta.org/" target="_blank" rel="noreferrer" className="flex items-center gap-2">
+                <FaGlobe className="shrink-0" />
+                Cайт нашей традиции
+              </a>
 
+              <a href="https://www.siddhashop.com/" className="flex items-center gap-2" target="_blank" rel="noreferrer">
+                <FaShoppingCart className="shrink-0" />
+                Сиддха шоп
+              </a>
             </div>
           </div>
         </div>

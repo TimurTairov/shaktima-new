@@ -16,6 +16,10 @@ const GalaryMDC = () => {
   const images = [
     {
       original:
+        'https://sun9-40.userapi.com/impg/Ge_nps8ooPQAmpD0szGAk8qW9NfV4n4CBMxAng/BjE1obJT6wo.jpg?size=1280x720&quality=95&sign=fc2955f8fa4139b994163822903052ab&type=album',
+    },
+    {
+      original:
         'https://sun9-65.userapi.com/impg/8FuUjSo2Ecd7GE64sBuxdViKXvnDcu8BLPa46Q/BpbufQZB1Ko.jpg?size=1280x720&quality=95&sign=8d743bb2864a7789f4d163dec52739d9&type=album',
     },
     {
@@ -57,10 +61,6 @@ const GalaryMDC = () => {
     {
       original:
         'https://sun9-7.userapi.com/impg/WfQLyNmQ5su8qBk3g8NCXzhJcVFrmgoQQF2khA/V_l9tX3rjiI.jpg?size=1280x720&quality=95&sign=25ab89b2e7a470318ede295cb500d541&type=album',
-    },
-    {
-      original:
-        'https://sun9-40.userapi.com/impg/Ge_nps8ooPQAmpD0szGAk8qW9NfV4n4CBMxAng/BjE1obJT6wo.jpg?size=1280x720&quality=95&sign=fc2955f8fa4139b994163822903052ab&type=album',
     },
   ]
   return (

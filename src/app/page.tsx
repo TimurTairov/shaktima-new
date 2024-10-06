@@ -8,7 +8,7 @@ import GalaryMDC from '@/components/GalaryMDC'
 
 export default function Home() {
   return (
-    <Container className="jura-font">
+    <Container className="roboto-mono-font">
 
       <Hero />
 
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <div className="w-full flex flex-wrap lg:justify-center lg:gap-20 text-xs md:text-base gap-5 mt-10 justify-around">
-            <div className=" text-gray-400 dark:text-gray-400">
+            <div className=" text-gray-400 dark:text-gray-400 ">
               В России
             </div>
             <div className="text-gray-400 dark:text-gray-400">
@@ -49,7 +49,7 @@ export default function Home() {
 
       <SectionTitle
         preTitle="Watch a video"
-        title="Посмотрите видео нашего духовного Учителя Свами Вишнудевананда Гири"
+        title="Видео нашего духовного Учителя Свами Вишнудевананда Гири"
       >
         Как отличить игры ума от просветления?
       </SectionTitle>
@@ -58,7 +58,7 @@ export default function Home() {
 
       <SectionTitle
         preTitle="galary"
-        title="Посмотрите фотографии нашего дхарма центра"
+        title="Фотографии нашего дхарма центра"
       >
         Здесь представлены фотографии с наших мероприятий.
       </SectionTitle>

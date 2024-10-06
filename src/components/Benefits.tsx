@@ -12,7 +12,6 @@ interface BenefitsProps {
     desc: string;
     images: {
       original: string,
-      thumbnail: string,
     }[];
     bullets: {
       title: string;
@@ -44,7 +43,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
           }`}>
         <div>
           <div className="flex flex-col w-full mt-4">
-            <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            <h3 className="max-w-2xl mt-3 text-3xl font-semibold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
               {data.title}
             </h3>
 
