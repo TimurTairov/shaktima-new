@@ -12,7 +12,7 @@ export default function Home() {
 
       <Hero />
 
-      <div className="mt-10 text-lg w-full text-center">
+      <div className="mt-10 text-base md:text-lg w-full text-center">
         Наш центр организован учениками просветленного мастера Адвайты - Гуру Свами Вишнудевананда Гири Махараджа.
         Мы являемся носителями традиции.
       </div>
@@ -20,7 +20,7 @@ export default function Home() {
       <Container>
         <div className="mt-5 w-full flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Более <span className="text-indigo-600">20 000+</span>{" "}
+            Более <span className="text-indigo-600 dark:text-indigo-300">20 000+</span>{" "}
             садху практикуют в нашей традиции
           </div>
 
