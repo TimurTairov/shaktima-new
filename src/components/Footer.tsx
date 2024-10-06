@@ -13,13 +13,13 @@ export function Footer() {
   return (
     <div className="mt-auto bg-slate-50 px-2">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-300 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-indigo-600"
               >
                 <Image
                   src={logo}
@@ -32,11 +32,11 @@ export function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-600">
               Московский Дхарма центр Шакти Ма
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400 flex items-center gap-1">
+            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-600 flex items-center gap-1">
               На благо всех живых существ <PiHandsPrayingBold />
             </div>
           </div>
@@ -48,7 +48,7 @@ export function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-600 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
@@ -57,8 +57,8 @@ export function Footer() {
           </div>
 
           <div className="">
-            <div className="font-semibold">Ресурсы</div>
-            <div className="flex flex-col mt-5 gap-3 text-gray-400 dark:text-gray-500">
+            <div className="font-semibold dark:text-gray-600">Ресурсы</div>
+            <div className="flex flex-col mt-5 gap-3 text-gray-400 dark:text-gray-600">
               <a
                 href="https://t.me/mdc_ShaktiMa"
                 target="_blank"
