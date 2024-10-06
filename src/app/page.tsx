@@ -12,13 +12,13 @@ export default function Home() {
 
       <Hero />
 
-      <div className="w-full text-center">
+      <div className="mt-10 text-lg w-full text-center">
         Наш центр организован учениками просветленного мастера Адвайты - Гуру Свами Вишнудевананда Гири Махараджа.
         Мы являемся носителями традиции.
       </div>
 
       <Container>
-        <div className="w-full flex flex-col justify-center">
+        <div className="mt-5 w-full flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Более <span className="text-indigo-600">20 000+</span>{" "}
             садху практикуют в нашей традиции
@@ -48,7 +48,7 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
+        preTitle="видео"
         title="Видео нашего духовного Учителя Свами Вишнудевананда Гири"
       >
         Как отличить игры ума от просветления?
@@ -57,7 +57,7 @@ export default function Home() {
       <iframe src="https://vk.com/video_ext.php?oid=40782986&id=456240701&hd=2" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameBorder="0" allowFullScreen className="w-full h-60 md:h-96 lg:h-[30rem] xl:h-[30rem] lg:px-20 xl:px-80 rounded-md mb-10"></iframe>
 
       <SectionTitle
-        preTitle="galary"
+        preTitle="Галерея"
         title="Фотографии нашего дхарма центра"
       >
         Здесь представлены фотографии с наших мероприятий.
