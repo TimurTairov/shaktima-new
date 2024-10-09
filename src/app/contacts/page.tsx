@@ -61,7 +61,7 @@ const page = () => {
           <li className="dark:text-gray-300 text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
             <FaGlobe className="mr-2" />
             <a href="https://institute-vasishtha.com/" className="flex text-sm md:text-md lg:text-lg" target="_blank" rel="noreferrer">
-              Институт Риши Васиштхи. Прохождение обучения по курсам.
+              Институт Риши Васиштхи.
             </a>
           </li>
           <li className="dark:text-gray-300 text-gray-700 hover:text-indigo-700 hover:underline my-2 flex items-center">
