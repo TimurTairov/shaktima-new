@@ -8,7 +8,7 @@ export const Cta = () => {
         <div className="flex-grow text-center lg:text-left">
           <h2 className="text-2xl font-medium lg:text-3xl">
           </h2>
-          <p className="mt-2 font-medium text-white text-opacity-90 text-sm md:text-base lg:text-xl">
+          <p className="mt-2 font-medium text-white text-opacity-90 text-sm md:text-base lg:text-lg">
             Откройте новые горизонты своего сознания и восстановите внутренний баланс
           </p>
         </div>

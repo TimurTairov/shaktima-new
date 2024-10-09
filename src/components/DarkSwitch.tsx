@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
+
+
 const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -11,11 +13,33 @@ const ThemeChanger = () => {
 
   if (!mounted) return null;
 
+  const iframeDark = () => {
+    // let x = document.getElementById("donate108");
+    // x.style.backgroundColor = "#1e1b4b";
+
+    let iframe = document.getElementsByTagName('iframe')[1];
+    iframe.style.background = '#1e1b4b';
+
+
+    // iframe.contentWindow.document.body.style.backgroundColor = 'white';
+  }
+
+  const iframeLight = () => {
+    // let x = document.getElementById("donate108");
+    // x.style.backgroundColor = "white";
+
+    let iframe = document.getElementsByTagName('iframe')[1];
+    iframe.style.background = 'white';
+  }
+
   return (
     <div className="flex items-center order-last border rounded-md p-1">
       {theme === "dark" ? (
         <button
-          onClick={() => setTheme("light")}
+          onClick={() => {
+            setTheme("light")
+            // iframeLight()
+          }}
           className="text-gray-300 rounded-full outline-none focus:outline-none ">
           <span className="sr-only">Light Mode</span>
 
@@ -29,7 +53,10 @@ const ThemeChanger = () => {
         </button>
       ) : (
         <button
-          onClick={() => setTheme("dark")}
+          onClick={() => {
+            setTheme("dark")
+            // iframeDark()
+          }}
           className="text-gray-500 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
           <span className="sr-only">Dark Mode</span>
           <svg
