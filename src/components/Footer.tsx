@@ -69,13 +69,13 @@ export function Footer() {
 
           <div className="md:col-span-2 lg:col-span-3">
 
-            <p className="w-full px-4 font-semibold">Меню</p>
+            <p className="w-full font-semibold">Меню</p>
             <div className="flex flex-wrap w-full mt-5">
               {navigation.map((item, index) => (
                 <Link
                   key={index}
                   href={item.url}
-                  className="w-full px-4 py-2 text-gray-600 rounded-md dark:text-gray-300 hover:text-black focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-indigo-800"
+                  className="w-full py-2 text-gray-600 rounded-md dark:text-gray-300 hover:text-black focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-indigo-800"
                 >
                   {item.title}
                 </Link>
