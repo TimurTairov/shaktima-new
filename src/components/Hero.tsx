@@ -20,7 +20,7 @@ export const Hero = () => {
               <Link
                 href="/praktiki"
 
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-500 rounded-md ">
                 Начать практиковать
               </Link>
             </div>

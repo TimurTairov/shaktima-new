@@ -57,35 +57,43 @@ const benefitTwo = {
   images: [
     {
       original: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
-      thumbnail: 'https://sun9-3.userapi.com/impg/K-_zhcNP5cyHHcAdURTMqYvi1DhwUqLqDhDPPA/3tcmM80EAZs.jpg?size=600x800&quality=95&sign=7290a6479e64459854a8e9e0db210625&type=album',
+      description: 'Общая линия передачи',
+
     },
     {
       original: 'https://sun9-52.userapi.com/impg/v90rgPWro6jVMXQQqMvRRpaCAxYRJtYYEHrzoQ/aoTXbjYMEzE.jpg?size=600x800&quality=95&sign=3e6ca793161fadf02355cbc5003d3721&type=album',
-      thumbnail: 'https://sun9-52.userapi.com/impg/v90rgPWro6jVMXQQqMvRRpaCAxYRJtYYEHrzoQ/aoTXbjYMEzE.jpg?size=600x800&quality=95&sign=3e6ca793161fadf02355cbc5003d3721&type=album',
+      description: 'Свами Вишнудевананда Гири',
+
     },
     {
       original: 'https://sun9-67.userapi.com/impg/1pns_heZSQ2oHrAoTJNpRnWP6Pbg68WXcrTz4g/_O5Gb8fAvpc.jpg?size=600x800&quality=95&sign=af8c51d5b641968b8262ef3cad7cb4d1&type=album',
-      thumbnail: 'https://sun9-67.userapi.com/impg/1pns_heZSQ2oHrAoTJNpRnWP6Pbg68WXcrTz4g/_O5Gb8fAvpc.jpg?size=600x800&quality=95&sign=af8c51d5b641968b8262ef3cad7cb4d1&type=album',
+      description: 'Свами Брахмананда',
+
     },
     {
       original: 'https://sun9-27.userapi.com/impg/YSMvHAN-8MJLNL_c6lugskrTw2pDiugTLjmTAQ/dt9Q0r8XC2I.jpg?size=600x800&quality=95&sign=b1d6066a19960afb5315632c81230405&type=album',
-      thumbnail: 'https://sun9-27.userapi.com/impg/YSMvHAN-8MJLNL_c6lugskrTw2pDiugTLjmTAQ/dt9Q0r8XC2I.jpg?size=600x800&quality=95&sign=b1d6066a19960afb5315632c81230405&type=album',
+      description: 'Шри Ади Шанкарачарья',
+
     },
     {
       original: 'https://sun9-17.userapi.com/impg/q8gkmYuWiswtB8_CogCywIH-nh26nNAkslUz3w/4vKPtPTjpgg.jpg?size=600x800&quality=95&sign=7fb88537add86a832091b61387e156b8&type=album',
-      thumbnail: 'https://sun9-17.userapi.com/impg/q8gkmYuWiswtB8_CogCywIH-nh26nNAkslUz3w/4vKPtPTjpgg.jpg?size=600x800&quality=95&sign=7fb88537add86a832091b61387e156b8&type=album',
+      description: 'Бхагаван авадхута Даттатрейя',
+
     },
     {
       original: 'https://sun9-54.userapi.com/impg/6pXs8LLKEjsJTejym8WGqOnWeyJnOgxuomdlCQ/xWhQfJVSgA8.jpg?size=600x800&quality=95&sign=ab831322e2ddf910ced06e732f4ce6c6&type=album',
-      thumbnail: 'https://sun9-54.userapi.com/impg/6pXs8LLKEjsJTejym8WGqOnWeyJnOgxuomdlCQ/xWhQfJVSgA8.jpg?size=600x800&quality=95&sign=ab831322e2ddf910ced06e732f4ce6c6&type=album',
+      description: 'Риши Васиштха',
+
     },
     {
       original: 'https://sun9-12.userapi.com/impg/kEF4-fnuTduKXjdAhjZ3CZ3BShPZEAbnz4ED5Q/xlaXsndUW1c.jpg?size=744x1052&quality=95&sign=23b5e21cb714dc90baa03120e7377f3a&type=album',
-      thumbnail: 'https://sun9-12.userapi.com/impg/kEF4-fnuTduKXjdAhjZ3CZ3BShPZEAbnz4ED5Q/xlaXsndUW1c.jpg?size=744x1052&quality=95&sign=23b5e21cb714dc90baa03120e7377f3a&type=album',
+      description: 'Северная линия передачи',
+
     },
     {
       original: 'https://sun9-71.userapi.com/impg/Poij7sT5r5eQQUk6hnm9ET1An-_9vQQQkTyBgA/IEF0WJnzxK0.jpg?size=1527x2160&quality=95&sign=fe3c424b99d28f53f508c4a30f195f8d&type=album',
-      thumbnail: 'https://sun9-71.userapi.com/impg/Poij7sT5r5eQQUk6hnm9ET1An-_9vQQQkTyBgA/IEF0WJnzxK0.jpg?size=1527x2160&quality=95&sign=fe3c424b99d28f53f508c4a30f195f8d&type=album',
+      description: 'Южная линия передачи',
+
     },
   ],
   bullets: [
@@ -182,16 +190,20 @@ const benefitFour = {
   images: [
     {
       original: 'https://sun9-29.userapi.com/impg/DT0ceVclp_qZCM-0H-KMi9QR7_6Y9e8V9NFV8A/9i9OxSQkXOw.jpg?size=600x800&quality=95&sign=bcebd8d0610a655e4db14f5697133e50&type=album',
+      description: 'Свами Брахмананда',
     },
     {
       original: 'https://sun9-33.userapi.com/impg/N39E76YsnqRrVk6mZHirC1CzQZ8E_i9Ct4F7gw/ltHy86NLvI8.jpg?size=600x800&quality=95&sign=9d88accfdee5762b1e342b1f47aa2e62&type=album',
+      description: 'Свами Брахмананда',
     },
     {
       original: 'https://sun9-79.userapi.com/impg/6aK7uRmUvQhlbzQSzanVTUluuvYt74IKvg5arg/XarbcRXw7Tw.jpg?size=600x800&quality=95&sign=f705f7f963fdf32498d8e0f0fa0b499e&type=album',
+      description: 'Махасиддха Памбатти',
 
     },
     {
       original: 'https://sun9-78.userapi.com/impg/6LNmnQHx-9qE_oaFL9je7OKjhsaO1wdWiIvXoQ/IMX0qiH_7bc.jpg?size=600x800&quality=95&sign=d048403e52007caef6e6b143a641c596&type=album',
+      description: 'Шива',
     },
   ],
   bullets: [

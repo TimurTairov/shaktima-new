@@ -20,11 +20,11 @@ export default function Home() {
       <Container>
         <div className="mt-5 w-full flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Более <span className="text-indigo-600 dark:text-indigo-300">20 000+</span>{" "}
+            Более <span className="text-indigo-500 ">20 000+</span>{" "}
             садху практикуют в нашей традиции
           </div>
 
-          <div className="w-full flex flex-wrap lg:justify-center lg:gap-20 text-xs md:text-base gap-5 mt-10 justify-around">
+          <div className="w-full flex flex-wrap lg:justify-center lg:gap-20 text-xs md:text-base gap-5 my-10 justify-around">
             <div className=" text-gray-400 dark:text-gray-400 ">
               В России
             </div>

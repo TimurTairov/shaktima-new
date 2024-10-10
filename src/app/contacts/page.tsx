@@ -23,7 +23,7 @@ const page = () => {
           <FaWhatsappSquare className="mr-2" />
           <h5 className="dark:text-gray-300 text-gray-700">
             Мадхувидья:
-            <a href="whatsapp://send?phone=+79859274240" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-400 hover:text-indigo-700 hover:underline ml-2 ">
+            <a href="whatsapp://send?phone=+79859274240" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-700 hover:underline ml-2 ">
               написать в WhapsApp
             </a>
           </h5>
@@ -32,7 +32,7 @@ const page = () => {
           <FaWhatsappSquare className="mr-2" />
           <h5 className="dark:text-gray-300 text-gray-700">
             Тиртхадэва:
-            <a href="whatsapp://send?phone=+79672067710" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-400 hover:text-indigo-700 hover:underline ml-2 ">
+            <a href="whatsapp://send?phone=+79672067710" target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-indigo-700 hover:underline ml-2 ">
               написать в WhapsApp
             </a>
           </h5>
