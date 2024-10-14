@@ -32,7 +32,7 @@ export function Footer() {
     },
   ];
   return (
-    <div className="mt-auto px-2">
+    <div className="mt-auto px-2 bg-gray-100">
       <Container>
         <div className="text-sm lg:text-base grid max-w-screen-xl grid-cols-1 md:grid-cols-7 gap-10 pt-10 mx-auto mt-5 border-t border-gray-300  lg:grid-cols-9">
           <div className="md:col-span-3 lg:col-span-4 ">

@@ -127,13 +127,13 @@ const benefitThree = {
     {
       original: 'https://sun9-38.userapi.com/impg/WzUc_aXqaazx50oWEZiVLEN-InuOmyTLpMsa5A/OTvOEXmOnZA.jpg?size=600x800&quality=95&sign=ed82a3cd5841fd9558832eabf84a26fd&type=album',
     },
-    {
-      original: 'https://sun9-68.userapi.com/impg/xWVNREwpOfIFb8Ckqmr8i2p4DppuLSG_d4RnXw/hko6pACZGDo.jpg?size=600x800&quality=95&sign=c31494bd3f9545373e28b411080fcfb2&type=album',
+    // {
+    //   original: 'https://sun9-68.userapi.com/impg/xWVNREwpOfIFb8Ckqmr8i2p4DppuLSG_d4RnXw/hko6pACZGDo.jpg?size=600x800&quality=95&sign=c31494bd3f9545373e28b411080fcfb2&type=album',
 
-    },
-    {
-      original: 'https://sun9-8.userapi.com/impg/xBVad3CD9A7mRSpm6ksWNIb8Vs131MSuIdPLKQ/RGTY7JpT96Y.jpg?size=600x800&quality=95&sign=da4a794e68cc4407baa6a4a51e1d7693&type=album',
-    },
+    // },
+    // {
+    //   original: 'https://sun9-8.userapi.com/impg/xBVad3CD9A7mRSpm6ksWNIb8Vs131MSuIdPLKQ/RGTY7JpT96Y.jpg?size=600x800&quality=95&sign=da4a794e68cc4407baa6a4a51e1d7693&type=album',
+    // },
     {
       original: 'https://sun9-39.userapi.com/impg/tPqoLIbCnqTXUx__7dh_4hNzNOJpp-1A17RjVg/hLczNvCr2KY.jpg?size=600x800&quality=95&sign=8e727d06be12baa2c2462a6f194653a2&type=album',
 
@@ -141,16 +141,16 @@ const benefitThree = {
     {
       original: 'https://sun9-20.userapi.com/impg/jvGMN1mouiHLRhNPLVDtBW-9ZvTd-gRGVkAsww/Hq1VrZxM1to.jpg?size=600x800&quality=95&sign=c57abab3bfd8d0a5a653e3db2399eb81&type=album',
     },
-    {
-      original: 'https://sun9-25.userapi.com/impg/G_skGtW-MfHsDTFOf9FHcYj3bsgtNSc41Sy13w/D3YlGl8IB7Q.jpg?size=600x800&quality=95&sign=bf3af24f2d38a1545b36bf9cf1cc6530&type=album',
+    // {
+    //   original: 'https://sun9-25.userapi.com/impg/G_skGtW-MfHsDTFOf9FHcYj3bsgtNSc41Sy13w/D3YlGl8IB7Q.jpg?size=600x800&quality=95&sign=bf3af24f2d38a1545b36bf9cf1cc6530&type=album',
 
-    },
+    // },
     {
       original: 'https://sun9-80.userapi.com/impg/Nz6HnjTD-WsHmJKzjCAey0iltBjps1UhWqiSxw/chnKvBjPUHk.jpg?size=600x800&quality=95&sign=2a9429312d7e764d4ab2dbee6f2112d4&type=album',
     },
-    {
-      original: 'https://sun9-37.userapi.com/impg/L3iJoFBYkkrn6vPJi0QcGWKg_iIw6ABX82BrEg/64xy24Bbu5k.jpg?size=600x800&quality=95&sign=e11a42ba8decad0a8d5740ec5113a0af&type=album',
-    },
+    // {
+    //   original: 'https://sun9-37.userapi.com/impg/L3iJoFBYkkrn6vPJi0QcGWKg_iIw6ABX82BrEg/64xy24Bbu5k.jpg?size=600x800&quality=95&sign=e11a42ba8decad0a8d5740ec5113a0af&type=album',
+    // },
     {
       original: 'https://sun9-23.userapi.com/impg/aM-cd1eW8cZ_ehEm5A3dnkdGjgaSIowSp1idEw/42pOBi64OiI.jpg?size=600x800&quality=95&sign=ab2a9d6be15be8f710f5977bd5c5f7d0&type=album',
     },
@@ -185,13 +185,17 @@ const benefitThree = {
 };
 
 const benefitFour = {
-  title: "Линия сиддхов",
-  desc: `Это линия передачи из южной Индии напрямую связана с 18 тамильскими махасиддхами.`,
+  title: "Махасиддхи",
+  desc: `Линия передачи из южной Индии напрямую связана с 18 тамильскими махасиддхами.`,
   images: [
     {
-      original: 'https://sun9-29.userapi.com/impg/DT0ceVclp_qZCM-0H-KMi9QR7_6Y9e8V9NFV8A/9i9OxSQkXOw.jpg?size=600x800&quality=95&sign=bcebd8d0610a655e4db14f5697133e50&type=album',
-      description: 'Свами Брахмананда',
+      original: 'https://sun9-78.userapi.com/impg/6LNmnQHx-9qE_oaFL9je7OKjhsaO1wdWiIvXoQ/IMX0qiH_7bc.jpg?size=600x800&quality=95&sign=d048403e52007caef6e6b143a641c596&type=album',
+      description: 'Шива',
     },
+    // {
+    //   original: 'https://sun9-29.userapi.com/impg/DT0ceVclp_qZCM-0H-KMi9QR7_6Y9e8V9NFV8A/9i9OxSQkXOw.jpg?size=600x800&quality=95&sign=bcebd8d0610a655e4db14f5697133e50&type=album',
+    //   description: 'Свами Брахмананда',
+    // },
     {
       original: 'https://sun9-33.userapi.com/impg/N39E76YsnqRrVk6mZHirC1CzQZ8E_i9Ct4F7gw/ltHy86NLvI8.jpg?size=600x800&quality=95&sign=9d88accfdee5762b1e342b1f47aa2e62&type=album',
       description: 'Свами Брахмананда',
@@ -202,9 +206,11 @@ const benefitFour = {
 
     },
     {
-      original: 'https://sun9-78.userapi.com/impg/6LNmnQHx-9qE_oaFL9je7OKjhsaO1wdWiIvXoQ/IMX0qiH_7bc.jpg?size=600x800&quality=95&sign=d048403e52007caef6e6b143a641c596&type=album',
-      description: 'Шива',
+      original: 'https://sun9-63.userapi.com/impg/6dIMbFrOSsbEbn-nQ9gjtVt-_WsvsXU9NLSfsQ/wHfW3Ubv420.jpg?size=600x800&quality=95&sign=ab3b414bcc10ddc663255ce0e4a2439c&type=album',
+      description: 'Махасиддха Сатьямуни',
+
     },
+
   ],
   bullets: [
     {
